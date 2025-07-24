@@ -96,6 +96,3 @@ How to Use
 * Export reports or use the unique feature from the app menu.
 
 
-```bash
-
-```
