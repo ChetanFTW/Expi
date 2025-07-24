@@ -1,0 +1,2 @@
+fvm use 3.19.6
+fvm flutter pub get

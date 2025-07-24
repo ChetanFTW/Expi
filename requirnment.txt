@@ -1,0 +1,17 @@
+Objective:
+Build a personal expense tracker app with a simple frontend (Flutter) and backend (Node.js or any backend stack you’re comfortable with). The app should:
+- Post-Request =  Allow a user to add expenses (amount, category, description, date)
+- Get-Request = Display expenses in a daily/weekly/monthly summary view
+- Flutter-FlChart = Include basic charts for visualization (bar or pie chart)
+- Store data locally or via simple API calls (preferred if you build the backend yourself)
+- Firebase-Bonus: Add a basic authentication flow (email-based OTP or token-based login)
+
+Key Constraints :
+Use clean, modular architecture (Provider, Riverpod, or Bloc for state management) — Submit directory structure screenshot.
+You must build a simple backend service (can be local, using JSON files, or a minimal MongoDB/PostgreSQL instance) — Share backend repo or postman collection.
+Add one unique feature of your own choice (example: export report as CSV, category suggestions, or voice-based entry) and justify your design decision in a short markdown file.
+Ensure good error handling and show custom error messages.
+Submit a 2-minute video walkthrough (screen-recorded) explaining how you structured the app and the backend logic (this checks communication skills and actual understanding).
+
+
+

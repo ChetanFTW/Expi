@@ -1,0 +1,30 @@
+Build and run the Docker 
+
+	docker build -t expense-tracker .
+	docker run -d -p 8000:8000 expense-tracker
+
+
+Post command - 
+ 
+curl -X POST http://localhost:8000/expenses \
+  -H "Content-Type: application/json" \
+  -d '{
+        "amount": 25.50,
+        "category": "Groceries",
+        "description": "Bought vegetables",
+        "date": "2025-07-24"
+      }'
+
+ Get Expense Summary – GET /expenses/summary
+
+ * Daily Summary
+	curl "http://localhost:8000/expenses/summary?period=daily"
+ * Weekly Summary
+	curl "http://localhost:8000/expenses/summary?period=weekly"
+ * Monthly Summary
+	curl "http://localhost:8000/expenses/summary?period=monthly"
+
+ * Extra: View Full Docs in Swagger UI
+	 http://localhost:8000/docs
+
+
